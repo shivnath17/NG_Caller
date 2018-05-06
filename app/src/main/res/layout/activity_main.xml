@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#345d6c"
+    android:alpha="0.9"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/user_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Enter Your Name Here"
+        android:gravity="center"
+        android:layout_marginTop="180dp"
+        android:textSize="30dp"/>
+
+    <Button
+        android:id="@+id/user_name_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:textColor="#e83c90"
+        android:textSize="30dp"
+        android:layout_marginTop="50dp"
+        android:background="#0000"
+        android:onClick="user_nam_submit"
+        />
+
+    <TextView
+        android:id="@+id/set_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Data|Firestore "
+        android:gravity="center"
+        android:layout_marginTop="100dp"
+        android:textSize="25dp"
+        android:onClick="firestore"
+        />
+
+
+</LinearLayout>
